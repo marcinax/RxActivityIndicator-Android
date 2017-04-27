@@ -19,4 +19,9 @@ activityIndicator
 longOperation() //Observable
     .compose(activityIndicator.trackActivity())
     .subscribe();
+
+//It is possible to track many Observables at once
+secondLongOperation()
+    .compose(activityIndicator.trackActivity())
+    .subscribe();
 ```

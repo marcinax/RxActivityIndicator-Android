@@ -1,4 +1,4 @@
-# RxActivityIndicator-Android
+# RxActivityIndicator
 
 A small library that helps you keep track of operations progress. It allows you to show progress bar (indicator) in a convenient way.
 

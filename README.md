@@ -7,12 +7,15 @@ RxActivityIndicator will make onNext with 'true' value when there is at least on
 Usage
 ---
 ```java
+//Create activity indicator
 private final RxActivityIndicator activityIndicator = new RxActivityIndicator();
 
+//Subscribe loading state, show or hide progress bar
 activityIndicator
     .map(isLoading -> isLoading ? View.VISIBLE : View.INVISIBLE)
     .subscribe(progressBar::setVisibility);
 
+//Use 'compose' to track Observable's activity
 longOperation() //Observable
     .compose(activityIndicator.trackActivity())
     .subscribe();

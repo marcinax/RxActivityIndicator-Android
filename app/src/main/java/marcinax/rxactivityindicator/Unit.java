@@ -3,9 +3,8 @@ package marcinax.rxactivityindicator;
 import android.support.annotation.NonNull;
 
 /**
- * Created by Marcin Gmyz on 27.04.2017.
+ * Class represents void. Helpful when it is necessary to use empty value with observable.
  */
-
 public class Unit implements Comparable<Unit> {
     private static final Unit defaultUnit = new Unit();
 

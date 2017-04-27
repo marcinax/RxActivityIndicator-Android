@@ -12,9 +12,9 @@ import io.reactivex.schedulers.Schedulers;
 import io.reactivex.subjects.BehaviorSubject;
 
 /**
- * Created by Marcin Gmyz on 27.04.2017.
+ * RxActivityIndicator will make onNext with 'true' value when there is at least one operation in progress.
+ * When all operations complete, 'false' value will be sent.
  */
-
 public class RxActivityIndicator extends Observable<Boolean> {
     private final BehaviorSubject<Integer> variable = BehaviorSubject.createDefault(0);
 

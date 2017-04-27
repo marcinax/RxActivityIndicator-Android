@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RxActivityIndicator.iml" filepath="$PROJECT_DIR$/RxActivityIndicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activityindicator/activityindicator.iml" filepath="$PROJECT_DIR$/activityindicator/activityindicator.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

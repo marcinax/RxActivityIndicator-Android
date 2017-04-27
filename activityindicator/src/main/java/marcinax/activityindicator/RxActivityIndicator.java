@@ -1,4 +1,4 @@
-package marcinax.rxactivityindicator;
+package marcinax.activityindicator;
 
 import java.util.concurrent.Callable;
 

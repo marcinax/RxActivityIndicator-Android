@@ -1,4 +1,4 @@
-package marcinax.rxactivityindicator;
+package marcinax.activityindicator;
 
 import android.support.annotation.NonNull;
 

@@ -9,6 +9,8 @@ import android.widget.ProgressBar;
 import java.util.concurrent.TimeUnit;
 
 import io.reactivex.Observable;
+import marcinax.activityindicator.RxActivityIndicator;
+import marcinax.activityindicator.Unit;
 
 public class MainActivity extends AppCompatActivity {
 

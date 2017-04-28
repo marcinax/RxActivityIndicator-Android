@@ -1,6 +1,6 @@
 # RxActivityIndicator
 
-[![Release](https://jitpack.io/v/marcinax/RxActivityIndicator-Android.svg)]
+[![Release](https://jitpack.io/v/marcinax/RxActivityIndicator-Android.svg)](https://jitpack.io/#marcinax/RxActivityIndicator-Android)
 
 A small library that helps you keep track of operations progress. It allows you to show progress bar (indicator) in a convenient way.
 

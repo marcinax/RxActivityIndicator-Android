@@ -27,3 +27,7 @@ secondLongOperation()
     .compose(activityIndicator.trackActivity())
     .subscribe();
 ```
+
+Installation
+---
+How to install: https://jitpack.io/#marcinax/RxActivityIndicator-Android

@@ -30,4 +30,20 @@ secondLongOperation()
 
 Installation
 ---
-How to install: https://jitpack.io/#marcinax/RxActivityIndicator-Android
+1. Add it in your root build.gradle at the end of repositories:
+```groovy
+allprojects {
+    repositories {
+        ...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+
+2. Add the dependency
+```groovy
+dependencies {
+    compile 'com.github.marcinax:RxActivityIndicator-Android:1.0'
+}
+```
+
